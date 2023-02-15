@@ -1,5 +1,5 @@
 import { defineClientConfig } from '@vuepress/client';
-import BaseTitle from '../../packages/components/title.vue';
+import BaseTitle from '../../packages/components/title/src/title.vue';
 
 export default defineClientConfig({
   enhance({ app }) {
