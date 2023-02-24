@@ -1,3 +1,9 @@
+/**
+ * 约定git提交规范
+ * types:[空格]message
+ * e.g. feat: 这是一个新的feature
+ */
+
 const types = [
   'feat', // 新功能 feature
   'fix', // 修复 bug
