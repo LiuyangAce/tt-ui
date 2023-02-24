@@ -13,10 +13,34 @@
   },
   "plugins": {
     "@release-it/conventional-changelog": {
-      "preset": "angular",
       "infile": "CHANGELOG.md",
-      "ignoreRecommendedBump": true, 
-      "strictSemVer": true
+      "ignoreRecommendedBump": true,
+      "strictSemVer": true,
+      "preset": {
+        "name": "conventionalcommits",
+        "types": [
+          {
+            "type": "feat",
+            "section": "✨新功能"
+          },
+          {
+            "type": "fix",
+            "section": "🐛问题修复"
+          },
+          {
+            "type": "docs",
+            "section": "📚文档"
+          },
+          {
+            "type": "chore",
+            "section": "🔧配置文件"
+          },
+          {
+            "type": "style",
+            "hidden": "true"
+          }
+        ]
+      }
     }
   }
 }
