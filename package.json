@@ -9,7 +9,13 @@
     "docs:serve": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "preinstall": "npx only-allow pnpm",
-    "release": "release-it"
+    "release": "release-it",
+    "commit":"cz"
+  },
+  "config": {
+    "commitizen": {
+        "path": "./node_modules/cz-customizable"
+    }
   },
   "keywords": [],
   "author": "",
@@ -19,6 +25,8 @@
     "@commitlint/config-conventional": "^17.4.4",
     "@release-it/conventional-changelog": "^5.1.1",
     "@vuepress/client": "2.0.0-beta.51",
+    "commitizen": "^4.3.0",
+    "cz-customizable": "^7.0.0",
     "husky": "^8.0.3",
     "release-it": "^15.6.0",
     "vue": "3.2.44",
