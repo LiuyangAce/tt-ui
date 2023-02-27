@@ -37,7 +37,8 @@
           },
           {
             "type": "style",
-            "hidden": "true"
+            "hidden": "true",
+            "section": "💄修改样式"
           }
         ]
       }
