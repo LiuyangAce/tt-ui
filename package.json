@@ -10,7 +10,8 @@
     "docs:build": "vuepress build docs",
     "preinstall": "npx only-allow pnpm",
     "release": "release-it",
-    "commit": "cz"
+    "commit": "cz",
+    "eslint": "eslint ./**/*"
   },
   "config": {
     "commitizen": {
@@ -27,6 +28,7 @@
     "@vuepress/client": "2.0.0-beta.51",
     "commitizen": "^4.3.0",
     "cz-customizable": "^7.0.0",
+    "eslint": "^8.35.0",
     "husky": "^8.0.3",
     "release-it": "^15.6.0",
     "vue": "3.2.44",
