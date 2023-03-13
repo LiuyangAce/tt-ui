@@ -6,7 +6,7 @@ import { demoblockPlugin } from 'vuepress-plugin-demoblock-plus'
 
 export default {
   lang: 'zh-CN',
-  title: '组件库',
+  title: 'tt-ui',
   description: '基于Vue3 + Vuepress的UI组件库',
   theme: defaultTheme({
     navbar,
