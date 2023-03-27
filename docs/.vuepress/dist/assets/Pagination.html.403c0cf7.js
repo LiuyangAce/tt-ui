@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as n,a as o}from"./app.4c05a973.js";const a={},c=o("p",null,"Pagination",-1),_=[c];function s(i,r){return t(),n("div",null,_)}const d=e(a,[["render",s],["__file","Pagination.html.vue"]]);export{d as default};

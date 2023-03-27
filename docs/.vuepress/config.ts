@@ -5,6 +5,7 @@ import sidebar from './configs/sidebar'
 import { demoblockPlugin } from 'vuepress-plugin-demoblock-plus'
 
 export default {
+  base: '/tt-ui/',
   lang: 'zh-CN',
   title: 'tt-ui',
   description: '基于Vue3 + Vuepress的UI组件库',
