@@ -1,0 +1,1 @@
+import{_ as e,o as t,c,a as o}from"./app.4c05a973.js";const _={},a=o("p",null,"table",-1),s=[a];function l(n,r){return t(),c("div",null,s)}const f=e(_,[["render",l],["__file","table.html.vue"]]);export{f as default};
